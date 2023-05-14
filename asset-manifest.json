@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/prayerTimes.github.io/static/css/main.dc69a7c8.css",
+    "main.js": "/prayerTimes.github.io/static/js/main.e0482e13.js",
+    "static/media/magicpattern-mesh-gradient-1683823915287.png": "/prayerTimes.github.io/static/media/magicpattern-mesh-gradient-1683823915287.3a9dc42631b17e90b7f7.png",
+    "static/media/sunrisePic.jpg": "/prayerTimes.github.io/static/media/sunrisePic.77fd0741607f67ecd51c.jpg",
+    "static/media/maghribPic.jpg": "/prayerTimes.github.io/static/media/maghribPic.7a0ba14f6fc91f633aeb.jpg",
+    "static/media/fajrPic.jpg": "/prayerTimes.github.io/static/media/fajrPic.dbb0cc63bcb91b76050f.jpg",
+    "static/media/ishaPic.jpg": "/prayerTimes.github.io/static/media/ishaPic.de62f6472cda06aa73c4.jpg",
+    "static/media/asrPic.jpg": "/prayerTimes.github.io/static/media/asrPic.87d09389301e2c499221.jpg",
+    "static/media/dhuhrPic.jpg": "/prayerTimes.github.io/static/media/dhuhrPic.cf49c51c972b20bdfaa0.jpg",
+    "index.html": "/prayerTimes.github.io/index.html",
+    "main.dc69a7c8.css.map": "/prayerTimes.github.io/static/css/main.dc69a7c8.css.map",
+    "main.e0482e13.js.map": "/prayerTimes.github.io/static/js/main.e0482e13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc69a7c8.css",
+    "static/js/main.e0482e13.js"
+  ]
+}

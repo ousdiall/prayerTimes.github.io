@@ -1,0 +1,198 @@
+body {
+  background-image: url(pics/magicpattern-mesh-gradient-1683823915287.png);
+  color: rgb(228, 255, 244);
+  text-shadow: -1px 1px 2px #000,
+    1px 1px 2px #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+#titleHeader {
+  text-align: center;
+}
+
+.cityName {
+  text-align: center;
+  font-size: 200%;
+  margin: 0.5rem;
+}
+
+.selectDiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#countrySelectLayout {
+  height: 38px;
+  width:70%;
+  border-radius: 0.26rem;
+  border-color: rgb(194, 194, 194);
+  border-width: .1rem;
+  border-style: solid;
+  margin-bottom: 1rem;
+}
+
+#inputAndButton{
+  display:flex;
+  flex-direction:row;
+}
+
+.inputLayout {
+  height: 34px;
+  border-color: rgb(194, 194, 194);
+  border-width: .1rem;
+  border-style: solid;
+  outline: none;
+  border-top-left-radius: 0.26rem;
+  border-bottom-left-radius: 0.26rem;
+  width:70%;
+}
+
+.button-21 {
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #70b333, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-top-right-radius: 0.26rem;
+  border-bottom-right-radius: 0.26rem;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd, sans-serif;
+  font-size: 1rem;
+  height: 38px;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s, background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-21:active,
+.button-21:focus {
+  outline: none;
+}
+
+.button-21:hover {
+  background-position: -20px -20px;
+}
+
+.button-21:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+#timeZone {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+.timeContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 40vh;
+}
+
+.timeContainer .timeBox {
+  margin: 1rem;
+  padding: 2rem;
+  min-width: 6rem;
+  width: 7rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: 3rem;
+  text-align: center;
+  background-size: 17rem;
+  object-fit: fill;
+}
+
+#fajrBox {
+  background-image: url(pics/fajrPic.jpg);
+}
+
+#sunriseBox {
+  background-image: url(pics/sunrisePic.jpg);
+}
+
+#dhuhrBox {
+  background-image: url(pics/dhuhrPic.jpg);
+}
+
+#asrBox {
+  background-image: url(pics/asrPic.jpg);
+}
+
+#maghribBox {
+  background-image: url(pics/maghribPic.jpg);
+}
+
+#ishaBox {
+  background-image: url(pics/ishaPic.jpg);
+}
+
+#error {
+  color: rgb(255, 108, 108);
+  text-align: center;
+  font-size: 200%;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  display: none;
+}
+
+
+
+.methodCenter {
+  display: flex;
+  justify-content: center;
+}
+
+#methodSelectInput {
+  height: 38px;
+  border-radius: 3rem;
+  border-color: rgb(194, 194, 194);
+  border-width: .1rem;
+  border-style: solid;
+  margin-left: 1rem;
+}
+
+@media only screen and (min-width: 40rem) {
+  
+  .selectDiv {
+    flex-direction: row;
+  }
+
+  #countrySelectLayout {
+    width:auto;
+    border-top-left-radius: 0.26rem;
+    border-bottom-left-radius: 0.26rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    margin-bottom:0%;
+    margin-left:1rem;
+  }
+
+  .inputLayout {
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+  }
+}
